@@ -1,4 +1,4 @@
-<img src="./src/assets/1.jpg" />
+<img src="./src/assets/1.jpg" align="center" />
 
 <h1 align="center">High's Code</h1>
 <p align="center">Uma comunidade de Programação para todos os níveis</p>
