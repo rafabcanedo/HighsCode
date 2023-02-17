@@ -1,14 +1,16 @@
+import { Lightbulb, Crown } from "phosphor-react";
 import Dev from '../assets/4.jpg';
 
 const About = () => {
  return(
-  <section className="py-32">
-   <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-    <div>
-    {/*<img src={Dev} alt="Foto Coding" />*/}
+  <div>
+  <section className="container mx-auto py-40 flex gap-20">
+   <div className="relative">
+    <div className="h-full rounded-lg">
+    <img src={Dev} alt="Foto Coding" width="800" height="800" className="rounded-xl" />
     </div>
    </div>
-   <div>
+   <div className="my-auto flex flex-col gap-3">
      <h2 className="text-2xl font-semibold">O que seria <span className="text-violet-900">High's Code</span>?</h2>
      <h4 className="text-lg text-gray-600 font-medium">Por que participar dessa comunidade?</h4>
     
@@ -27,6 +29,31 @@ const About = () => {
     </div>
    </div>
   </section>
+
+  <section className="flex fex-row gap-">
+    <div className="mx-auto flex h-48 w-full max-w-md cursor-pointer flex-col justify-center overflow-hidden rounded-lg bg-white px-5 py-0 shadow-xl ring-1 ring-gray-900/5">
+    <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-purple-100 p-1 text-purple-600">
+     <Lightbulb size={28} weight="light" />
+    </span>
+     <h2 className="mt-2 text-lg font-jost text-gray-800">Compartilhe suas Ideias</h2>
+     <p class="line-clamp-2 mt-1 text-gray-500">
+      Sempre estamos abertos a novas ideias de projetos, ideias sobre contribuição da comunidade. Somos uma comunidade e precisamos que todos
+      os desenvolvedor contribua.
+     </p>
+    </div>
+
+    <div className="mx-auto flex h-48 w-full max-w-md cursor-pointer flex-col justify-center overflow-hidden rounded-lg bg-white px-5 py-0 shadow-xl ring-1 ring-gray-900/5">
+    <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-purple-100 p-1 text-purple-600">
+     <Crown size={28} weight="light" />
+    </span>
+     <h2 className="mt-2 text-lg font-jost text-gray-800">Complete Desafios</h2>
+     <p class="line-clamp-2 mt-1 text-gray-500">
+      Conforme o crescimento da High's Code, vimos a necessidade de trazer desafios para tornar os estudos mais divertidos.
+     </p>
+    </div>
+
+  </section>
+  </div>
  );
 }
    

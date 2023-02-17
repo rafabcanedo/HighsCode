@@ -93,7 +93,6 @@ const Home = () => {
   </div>
   </div>
 
-  <div className='h-[50rem]'></div>
  </div>
  );
 }
