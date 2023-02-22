@@ -8,7 +8,7 @@ const Home = () => {
  
  <div className="mx-auto flex max-w-5xl flex-col items-start gap-10 px-6 md:flex-row lg:px-8">
  <div className="w-full md:sticky md:top-10 md:w-[28rem]">
-  <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">High's Codes</h2>
+  <h2 class="text-lg font-semibold leading-8 tracking-tight text-[#40356f]">High's Codes</h2>
   <h1 className="text-2xl font-bold font-montserrat">
    Uma nova <span className="text-[#40356f]">comunidade</span> <br />
    que cresce a cada dia
@@ -31,7 +31,7 @@ const Home = () => {
   <dl className="grid grid-cols-1 gap-y-10 gap-x-8 md:max-w-xl lg:max-w-none lg:gap-y-16">
 
    <div className="relative rounded-lg bg-gray-300 p-10">
-    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-600">
      <DiscordLogo size={28} weight="light" color="#fff" />
     </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
    </div>
 
    <div className="relative rounded-lg bg-gray-300 p-10">
-    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-600">
      <Handshake size={28} weight="light" color="#fff" />
     </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
    </div>
 
    <div className="relative rounded-lg bg-gray-300 p-10">
-    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-600">
     <LockKeyOpen size={28} weight="light" color="#fff" />
     </div>
 
@@ -66,7 +66,7 @@ const Home = () => {
    </div>
 
    <div className="relative rounded-lg bg-gray-300 p-10">
-    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-600">
      <Atom size={28} weight="light" color="#fff" />
     </div>
 
@@ -79,7 +79,7 @@ const Home = () => {
    </div>
 
    <div className="relative rounded-lg bg-gray-300 p-10">
-    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-600">
      <Code size={28} weight="light" color="#fff" />
     </div>
 
